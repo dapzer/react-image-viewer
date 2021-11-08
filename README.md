@@ -1,6 +1,6 @@
 # Simple Image Viewer
 
-[Demo](https://dapzer.github.io/image-viewer/)
+[Demo](https://dapzer.github.io/image-viewer-preview/)
 
 Installation `npm i image-viewer-dv`
 

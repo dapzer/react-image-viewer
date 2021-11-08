@@ -7,6 +7,7 @@
     "images",
     "image-viewer"
   ],
+  "description": "Simple image viewer",
   "version": "1.0.5",
   "author": "Danila Voronkov",
   "main": "./dist/index.js",
