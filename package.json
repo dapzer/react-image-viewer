@@ -1,5 +1,5 @@
 {
-  "name": "image-viewer-dap",
+  "name": "image-viewer-dv",
   "keywords": [
     "react",
     "components",
@@ -33,7 +33,7 @@
     "react-dom": "^17.0.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.4",
-    "webpack": "^5.62.1",
+    "webpack": "^5.62.2",
     "webpack-cli": "^4.9.1"
   },
   "peerDependencies": {
