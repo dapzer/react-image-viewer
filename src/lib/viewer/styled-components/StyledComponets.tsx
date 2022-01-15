@@ -62,7 +62,4 @@ export const CloseBtn = styled.span`
 
 export const ImageContainer = styled.div`
   padding: 0px 20px;
-  span{
-    all: unset;
-  }
 `
