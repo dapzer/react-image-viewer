@@ -23,7 +23,7 @@ export const ViewerFrame = styled.div`
   align-items: center;
   
   img {
-    all: unset !important;
+    all: unset;
     width: 100%;
     max-width: 1250px;
     height: 100%;
@@ -63,6 +63,6 @@ export const CloseBtn = styled.span`
 export const ImageContainer = styled.div`
   padding: 0px 20px;
   span{
-    all: unset !important;
+    all: unset;
   }
 `
