@@ -23,7 +23,7 @@ export const ViewerFrame = styled.div`
   align-items: center;
   
   img {
-    all: unset;
+    all: unset !important;
     width: 100%;
     max-width: 1250px;
     height: 100%;
