@@ -1,36 +1,36 @@
 import React, { FC, ReactNode } from 'react'
 import { CloseIcon } from './styled-components/Icon'
-import { ImageBody, ViewerFrame } from './styled-components/StyledComponets'
+import { CloseBtn, ImageBody, ImageContainer, ViewerFrame } from './styled-components/StyledComponets'
 import { useViewer } from "./useViewer"
 
-interface ImageViewerProps{
+interface ImageViewerProps {
   children: ReactNode;
 }
 
 export const ImageViewer: FC<ImageViewerProps> = (props) => {
 
-    const { dontClose, closeViewer, show, showViewer } = useViewer()
+  const {dontClose, closeViewer, show, showViewer} = useViewer()
 
-    return (
-        <>
-            {
-                (
-                    <ImageBody onClick={showViewer}>
-                        {props.children}
-                    </ImageBody>
-                )
-            }
+  return (
+    <>
+      {
+        (
+          <ImageBody onClick={showViewer}>
+            {props.children}
+          </ImageBody>
+        )
+      }
 
-            {
-                show && (
-                    <ViewerFrame onClick={closeViewer}>
-                        <span onClick={closeViewer}><CloseIcon /></span>
-                        <div onClick={dontClose}>
-                            {props.children}
-                        </div>
-                    </ViewerFrame>
-                )
-            }
-        </>
-    )
+      {
+        show && (
+          <ViewerFrame onClick={closeViewer}>
+            <CloseBtn onClick={closeViewer}><CloseIcon/></CloseBtn>
+            <ImageContainer onClick={dontClose}>
+              {props.children}
+            </ImageContainer>
+          </ViewerFrame>
+        )
+      }
+    </>
+  )
 }
