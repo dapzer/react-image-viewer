@@ -56,6 +56,6 @@
 `,t.ImageContainer=n.default.div`
   padding: 0px 20px;
   span{
-    all: unset;
+    all: unset !important;
   }
 `},585:(e,t,o)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.useViewer=void 0;const r=o(156);t.useViewer=()=>{const[e,t]=(0,r.useState)(!1),o=()=>{t(!1)};return(0,r.useEffect)((()=>{document.addEventListener("keyup",(e=>{27===e.keyCode&&o()})),document.body.style.overflow=!0===e?"hidden":""}),[e]),{show:e,showViewer:()=>{t(!0)},dontClose:e=>{e.stopPropagation()},closeViewer:o}}},156:t=>{t.exports=e},466:e=>{e.exports=t}},r={};function n(e){var t=r[e];if(void 0!==t)return t.exports;var i=r[e]={exports:{}};return o[e].call(i.exports,i,i.exports,n),i.exports}var i={};return(()=>{var e=i;Object.defineProperty(e,"__esModule",{value:!0}),e.ImageViewer=void 0;const t=n(232);Object.defineProperty(e,"ImageViewer",{enumerable:!0,get:function(){return t.ImageViewer}})})(),i})()}));
