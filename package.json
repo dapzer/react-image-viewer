@@ -1,5 +1,5 @@
 {
-  "name": "image-viewer-dv",
+  "name": "react-image-viewer-dv",
   "keywords": [
     "react",
     "components",
@@ -8,7 +8,7 @@
     "image-viewer"
   ],
   "description": "Simple image viewer",
-  "version": "1.0.16",
+  "version": "1.0.0",
   "author": "Danila Voronkov",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
