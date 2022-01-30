@@ -10,7 +10,7 @@
     "react-viewer"
   ],
   "description": "React image viewer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Danila Voronkov",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
